@@ -1,0 +1,649 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="TicTacToeTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2023-02-08T18:36:10" hostname="DESKTOP-9KVN75K" time="0.277">
+  <properties/>
+  <testcase name="start" classname="TicTacToeTest" time="0.277"/>
+  <system-out><![CDATA[?[1;31m
+Start test 1?[0m
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+> 3 1
+---------
+| _ _ _ |
+| _ _ _ |
+| X _ _ |
+---------
+> 1 4
+Coordinates should be from 1 to 3!
+> 1 1
+---------
+| O _ _ |
+| _ _ _ |
+| X _ _ |
+---------
+> 4 4
+Coordinates should be from 1 to 3!
+> 2 2
+---------
+| O _ _ |
+| _ X _ |
+| X _ _ |
+---------
+> 4 1
+Coordinates should be from 1 to 3!
+> 1 3
+---------
+| O _ O |
+| _ X _ |
+| X _ _ |
+---------
+> 4 2
+Coordinates should be from 1 to 3!
+> 4 1
+Coordinates should be from 1 to 3!
+> 3 3
+---------
+| O _ O |
+| _ X _ |
+| X _ X |
+---------
+> 1 1
+This cell is occupied! Choose another one!
+> 1 2
+---------
+| O O O |
+| _ X _ |
+| X _ X |
+---------
+O wins
+?[1;31m
+Start test 2?[0m
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+> 4 1
+Coordinates should be from 1 to 3!
+> 3 2
+---------
+| _ _ _ |
+| _ _ _ |
+| _ X _ |
+---------
+> 1 2
+---------
+| _ O _ |
+| _ _ _ |
+| _ X _ |
+---------
+> 4 3
+Coordinates should be from 1 to 3!
+> 4 3
+Coordinates should be from 1 to 3!
+> 2 4
+Coordinates should be from 1 to 3!
+> 3 2
+This cell is occupied! Choose another one!
+> 4 4
+Coordinates should be from 1 to 3!
+> 3 4
+Coordinates should be from 1 to 3!
+> 4 4
+Coordinates should be from 1 to 3!
+> 2 3
+---------
+| _ O _ |
+| _ _ X |
+| _ X _ |
+---------
+> 1 2
+This cell is occupied! Choose another one!
+> 1 3
+---------
+| _ O O |
+| _ _ X |
+| _ X _ |
+---------
+> 2 1
+---------
+| _ O O |
+| X _ X |
+| _ X _ |
+---------
+> 2 2
+---------
+| _ O O |
+| X O X |
+| _ X _ |
+---------
+> 2 3
+This cell is occupied! Choose another one!
+> 3 1
+---------
+| _ O O |
+| X O X |
+| X X _ |
+---------
+> 3 2
+This cell is occupied! Choose another one!
+> 3 3
+---------
+| _ O O |
+| X O X |
+| X X O |
+---------
+> 1 1
+---------
+| X O O |
+| X O X |
+| X X O |
+---------
+X wins
+?[1;31m
+Start test 3?[0m
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+> 1 2
+---------
+| _ X _ |
+| _ _ _ |
+| _ _ _ |
+---------
+> 3 3
+---------
+| _ X _ |
+| _ _ _ |
+| _ _ O |
+---------
+> 2 3
+---------
+| _ X _ |
+| _ _ X |
+| _ _ O |
+---------
+> 1 3
+---------
+| _ X O |
+| _ _ X |
+| _ _ O |
+---------
+> 1 1
+---------
+| X X O |
+| _ _ X |
+| _ _ O |
+---------
+> 1 2
+This cell is occupied! Choose another one!
+> 4 3
+Coordinates should be from 1 to 3!
+> 4 2
+Coordinates should be from 1 to 3!
+> 2 2
+---------
+| X X O |
+| _ O X |
+| _ _ O |
+---------
+> 4 4
+Coordinates should be from 1 to 3!
+> 1 3
+This cell is occupied! Choose another one!
+> 2 1
+---------
+| X X O |
+| X O X |
+| _ _ O |
+---------
+> 2 2
+This cell is occupied! Choose another one!
+> 2 3
+This cell is occupied! Choose another one!
+> 3 1
+---------
+| X X O |
+| X O X |
+| O _ O |
+---------
+O wins
+?[1;31m
+Start test 4?[0m
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+> 4 3
+Coordinates should be from 1 to 3!
+> 2 2
+---------
+| _ _ _ |
+| _ X _ |
+| _ _ _ |
+---------
+> 4 4
+Coordinates should be from 1 to 3!
+> 1 4
+Coordinates should be from 1 to 3!
+> 4 1
+Coordinates should be from 1 to 3!
+> 2 2
+This cell is occupied! Choose another one!
+> 1 1
+---------
+| O _ _ |
+| _ X _ |
+| _ _ _ |
+---------
+> 3 4
+Coordinates should be from 1 to 3!
+> 3 1
+---------
+| O _ _ |
+| _ X _ |
+| X _ _ |
+---------
+> 4 1
+Coordinates should be from 1 to 3!
+> 1 4
+Coordinates should be from 1 to 3!
+> 2 1
+---------
+| O _ _ |
+| O X _ |
+| X _ _ |
+---------
+> 2 2
+This cell is occupied! Choose another one!
+> 2 3
+---------
+| O _ _ |
+| O X X |
+| X _ _ |
+---------
+> 3 1
+This cell is occupied! Choose another one!
+> 3 2
+---------
+| O _ _ |
+| O X X |
+| X O _ |
+---------
+> 3 3
+---------
+| O _ _ |
+| O X X |
+| X O X |
+---------
+> 1 1
+This cell is occupied! Choose another one!
+> 1 2
+---------
+| O O _ |
+| O X X |
+| X O X |
+---------
+> 1 3
+---------
+| O O X |
+| O X X |
+| X O X |
+---------
+X wins
+?[1;31m
+Start test 5?[0m
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+> 3 2
+---------
+| _ _ _ |
+| _ _ _ |
+| _ X _ |
+---------
+> 3 4
+Coordinates should be from 1 to 3!
+> 4 1
+Coordinates should be from 1 to 3!
+> 1 4
+Coordinates should be from 1 to 3!
+> 2 3
+---------
+| _ _ _ |
+| _ _ O |
+| _ X _ |
+---------
+> 2 4
+Coordinates should be from 1 to 3!
+> 1 4
+Coordinates should be from 1 to 3!
+> 3 1
+---------
+| _ _ _ |
+| _ _ O |
+| X X _ |
+---------
+> 1 1
+---------
+| O _ _ |
+| _ _ O |
+| X X _ |
+---------
+> 3 3
+---------
+| O _ _ |
+| _ _ O |
+| X X X |
+---------
+X wins
+?[1;31m
+Start test 6?[0m
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+> 4 5
+Coordinates should be from 1 to 3!
+> 4 1
+Coordinates should be from 1 to 3!
+> 1 4
+Coordinates should be from 1 to 3!
+> 4 4
+Coordinates should be from 1 to 3!
+> 2 4
+Coordinates should be from 1 to 3!
+> 1 3
+---------
+| _ _ X |
+| _ _ _ |
+| _ _ _ |
+---------
+> 1 1
+---------
+| O _ X |
+| _ _ _ |
+| _ _ _ |
+---------
+> 4 2
+Coordinates should be from 1 to 3!
+> 4 1
+Coordinates should be from 1 to 3!
+> 1 1
+This cell is occupied! Choose another one!
+> 4 2
+Coordinates should be from 1 to 3!
+> 2 3
+---------
+| O _ X |
+| _ _ X |
+| _ _ _ |
+---------
+> 3 1
+---------
+| O _ X |
+| _ _ X |
+| O _ _ |
+---------
+> 3 2
+---------
+| O _ X |
+| _ _ X |
+| O X _ |
+---------
+> 3 3
+---------
+| O _ X |
+| _ _ X |
+| O X O |
+---------
+> 1 1
+This cell is occupied! Choose another one!
+> 1 2
+---------
+| O X X |
+| _ _ X |
+| O X O |
+---------
+> 1 3
+This cell is occupied! Choose another one!
+> 2 1
+---------
+| O X X |
+| O _ X |
+| O X O |
+---------
+O wins
+?[1;31m
+Start test 7?[0m
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+> 4 4
+Coordinates should be from 1 to 3!
+> 1 4
+Coordinates should be from 1 to 3!
+> 2 1
+---------
+| _ _ _ |
+| X _ _ |
+| _ _ _ |
+---------
+> 3 1
+---------
+| _ _ _ |
+| X _ _ |
+| O _ _ |
+---------
+> 3 1
+This cell is occupied! Choose another one!
+> 4 3
+Coordinates should be from 1 to 3!
+> 4 3
+Coordinates should be from 1 to 3!
+> 4 3
+Coordinates should be from 1 to 3!
+> 3 1
+This cell is occupied! Choose another one!
+> 1 4
+Coordinates should be from 1 to 3!
+> 3 1
+This cell is occupied! Choose another one!
+> 3 2
+---------
+| _ _ _ |
+| X _ _ |
+| O X _ |
+---------
+> 3 3
+---------
+| _ _ _ |
+| X _ _ |
+| O X O |
+---------
+> 1 1
+---------
+| X _ _ |
+| X _ _ |
+| O X O |
+---------
+> 1 2
+---------
+| X O _ |
+| X _ _ |
+| O X O |
+---------
+> 1 3
+---------
+| X O X |
+| X _ _ |
+| O X O |
+---------
+> 2 1
+This cell is occupied! Choose another one!
+> 2 2
+---------
+| X O X |
+| X O _ |
+| O X O |
+---------
+> 2 3
+---------
+| X O X |
+| X O X |
+| O X O |
+---------
+Draw
+?[1;31m
+Start test 8?[0m
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+> 4 7
+Coordinates should be from 1 to 3!
+> 3 3
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ X |
+---------
+> 1 4
+Coordinates should be from 1 to 3!
+> 4 3
+Coordinates should be from 1 to 3!
+> 4 3
+Coordinates should be from 1 to 3!
+> 4 3
+Coordinates should be from 1 to 3!
+> 4 3
+Coordinates should be from 1 to 3!
+> 2 3
+---------
+| _ _ _ |
+| _ _ O |
+| _ _ X |
+---------
+> 4 2
+Coordinates should be from 1 to 3!
+> 4 2
+Coordinates should be from 1 to 3!
+> 3 1
+---------
+| _ _ _ |
+| _ _ O |
+| X _ X |
+---------
+> 3 2
+---------
+| _ _ _ |
+| _ _ O |
+| X O X |
+---------
+> 3 3
+This cell is occupied! Choose another one!
+> 1 1
+---------
+| X _ _ |
+| _ _ O |
+| X O X |
+---------
+> 1 2
+---------
+| X O _ |
+| _ _ O |
+| X O X |
+---------
+> 1 3
+---------
+| X O X |
+| _ _ O |
+| X O X |
+---------
+> 2 1
+---------
+| X O X |
+| O _ O |
+| X O X |
+---------
+> 2 2
+---------
+| X O X |
+| O X O |
+| X O X |
+---------
+X wins
+?[1;31m
+Start test 9?[0m
+---------
+| _ _ _ |
+| _ _ _ |
+| _ _ _ |
+---------
+> 3 2
+---------
+| _ _ _ |
+| _ _ _ |
+| _ X _ |
+---------
+> 4 1
+Coordinates should be from 1 to 3!
+> 1 1
+---------
+| O _ _ |
+| _ _ _ |
+| _ X _ |
+---------
+> 2 2
+---------
+| O _ _ |
+| _ X _ |
+| _ X _ |
+---------
+> 4 4
+Coordinates should be from 1 to 3!
+> 4 4
+Coordinates should be from 1 to 3!
+> 1 4
+Coordinates should be from 1 to 3!
+> 1 1
+This cell is occupied! Choose another one!
+> 4 3
+Coordinates should be from 1 to 3!
+> 1 2
+---------
+| O O _ |
+| _ X _ |
+| _ X _ |
+---------
+> 3 3
+---------
+| O O _ |
+| _ X _ |
+| _ X X |
+---------
+> 1 1
+This cell is occupied! Choose another one!
+> 1 2
+This cell is occupied! Choose another one!
+> 1 3
+---------
+| O O O |
+| _ X _ |
+| _ X X |
+---------
+O wins
+]]></system-out>
+  <system-err><![CDATA[]]></system-err>
+</testsuite>
